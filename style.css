@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(0, 83, 199);
+}
+.fon_doc{
+    background-color:rgba(0, 235, 235, 0.823);
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    left: 250px;
+    top: 100px;
+    border-radius: 25px;
+}
+img#natsy{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.imi{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    color: aliceblue;
+
+    
+}
+#voz{
+    position: absolute;
+    left: 50px;
+    font-family: 'Handjet', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+h3{
+    font-family: 'Handjet', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+div .obs{
+    position: absolute;
+    left: 200px;
+    top: 100px
+}
+#rasa{
+    position: absolute;
+    top: -1px;
+    left: 100px;
+    white-space: nowrap;
+}
+#pol {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 22px;
+    left: 100px;
+
+}
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: "-";
+    position: relative;
+    left: -5px;
+}
+
+.mag_dop{
+    position: absolute;
+    width: 500px;
+    left: 100px;
+    top: 45px
+}
+div.txt{
+    position: absolute;
+    top: 310px;
+}
+
+samp#txt{
+    width: 500px;
+    position: absolute;
+    top:0px;
+    left: 200px;
+}
+li{
+    font-weight: bolder;
+}
+li.mag{
+    font-weight: lighter;
+}
+img#gild_img{
+        margin: auto;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        border-radius: 10px;
+        border: 2px solid red;
+}
+div.gildia{
+    position: absolute;
+    left: 80%;
+    width: 200px;
+
+}
+
+div.gildia li{
+    position: absolute;
+    top: 180px;
+    left: -50px;
+}
+#gild_txt{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
