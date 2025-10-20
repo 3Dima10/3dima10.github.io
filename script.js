@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     // Устанавливаем время отсчета в 40 минут (в секундах)
-    let countdownTime = 40 * 60;
+    let countdownTime = 57 * 60;
     const display = document.getElementById("p2");
     
     function updateTimer() {
@@ -80,3 +80,4 @@ if ('serviceWorker' in navigator) {
         .then(() => console.log('Service Worker зарегистрирован!'))
         .catch(err => console.error('Ошибка:', err));
 }
+
