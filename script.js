@@ -39,7 +39,7 @@ function generateRandomDigits() {
 
 document.addEventListener("DOMContentLoaded", function () {
     let loadTime = new Date();
-    loadTime.setMinutes(loadTime.getMinutes() - 20); // Уменьшаем время на 20 минут
+    loadTime.setMinutes(loadTime.getMinutes() - 3); // Уменьшаем время на 3 минут
     
     let formattedDate = loadTime.toLocaleDateString();
     let formattedTime = loadTime.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Устанавливаем время отсчета в 40 минут (в секундах)
+    // Устанавливаем время отсчета в 57 минут (в секундах)
     let countdownTime = 57 * 60;
     const display = document.getElementById("p2");
     
